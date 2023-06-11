@@ -1,13 +1,34 @@
+import { useEffect } from "react";
 import "./featuredInfo.css";
 import { ArrowDownward, ArrowUpward } from "@material-ui/icons";
+import { userRequest } from "../../requestMethods";
+import { useState } from "react";
 
 export default function FeaturedInfo() {
+
+const [income,setIncome] = useState([]);
+const [perc,setPerc] = useState(0);
+
+useEffect(()=>{
+  const getIncome = async() =>{
+    try{
+const res = await userRequest.get("/orders/income");
+setIncome(res.data);
+console.log(res.data);
+    }catch(err){}
+  }
+  getIncome();
+},[income]);
+
+
+
+
   return (
     <div className="featured">
       <div className="featuredItem">
-        <span className="featuredTitle">Revanue</span>
+        <span className="featuredTitle">Revenue</span>
         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$2,415</span>
+          <span className="featuredMoney">₹2000 </span>
           <span className="featuredMoneyRate">
             -11.4 <ArrowDownward  className="featuredIcon negative"/>
           </span>
@@ -17,7 +38,7 @@ export default function FeaturedInfo() {
       <div className="featuredItem">
         <span className="featuredTitle">Sales</span>
         <div className="featuredMoneyContainer">
-          <span className="featuredMoney">$4,415</span>
+          <span className="featuredMoney">₹ 1000</span>
           <span className="featuredMoneyRate">
             -1.4 <ArrowDownward className="featuredIcon negative"/>
           </span>
