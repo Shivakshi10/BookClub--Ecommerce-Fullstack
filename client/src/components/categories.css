@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.categorie{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;height: 100vh;
+    background-color: #FFF1D2;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.categories {
+    display: flex;
+    height: 85vh;
+    gap: 10px;
+    margin: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+   
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .col-l {
+    flex: 2;
+  }
+
+  .row{
+    flex:1;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .button{
+    position: absolute;
+    min-width: 100px;
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    
+  }
+
+   .button:hover{
+    background-color: rgb(213, 213, 213);
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+
+  
+
+  .link{
+    
+    text-decoration: none !important;
+    color: black !important;
+  }
+
+  .cathead{
+    font-size: 30px;
+    margin-bottom: 15px;
+margin: 20px;
+text-align: center;
+display: table;
+    margin: 0 auto;
+  }

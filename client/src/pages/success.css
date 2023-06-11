@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.SucWrapper{
+  height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sucCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.successimages{
+    height: 300px;
+}
+
+.succText{
+    font-size: 18px;
+}
+
+.gotoHome{
+    height: 55px;
+    width: 200px;
+    margin-top: 25px;
+    background-color: #fcda91;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.gotoHome:hover{
+    background-color: #deaa3a;
+    color: white;
+}

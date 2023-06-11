@@ -1,0 +1,19 @@
+
+ 
+.newRel{
+    margin-top: 15px;
+   
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+ .nrh{
+    position: absolute !important;
+    font-size: 20px;
+    top: 45%;
+    -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg);
+    position: relative;
+
+}

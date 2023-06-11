@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+.CartContainer{
+    height: auto;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    background-color:  #FFF1D2;
+    align-items: center;
+}
+
+.CartWrapper{
+    height: auto;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.cartHead{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    position: relative;
+  margin: auto;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.cat{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.cartleft{
+    flex: 3;
+}
+
+
+
+.cartright{
+    flex: 1.5;
+    display: flex;
+    border-left: solid 1px rgb(186, 186, 186);
+    height: auto;
+    flex-direction: column;
+    
+}
+
+.cartoptions{
+    font-size: 17px;
+}
+
+.carttext{
+    font-size: 17px;
+}
+
+.summary
+{
+    
+    font-weight: 400;
+    position: relative;
+  margin: auto;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.orderinfo{
+    
+    
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 15px;
+}
+.orders{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.pay{
+    height: 40px;
+    width: 80%;
+margin: 5px 10px 20px 20px;
+background-color: #fee9bb;
+cursor: pointer;
+margin-left: 20px;
+border: solid 1px #FFF1D2;
+}
+
+.pay:hover{
+    background-color: #fad27c;
+}
+
+.cartDel{
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bookm{
+    height: 130px;
+    width: 100px;
+}
+
+.cartrow{
+    flex:1;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.cartcol{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carttext{
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+#addorsub{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.buttonadd{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonsub{
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#total{
+    font-weight: 700px;
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.orderhr{
+    margin-top: 5px;
+}

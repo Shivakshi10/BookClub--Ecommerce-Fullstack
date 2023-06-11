@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.List{
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.listele{
+    position: relative;
+    background-color: white;
+    height: 190px;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 7px 41px -36px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 7px 41px -36px rgba(0,0,0,0.75);
+box-shadow: 2px 7px 41px -36px rgba(0,0,0,0.75);
+
+
+}
+
+.imgdiv{
+    height: 180px;
+    width: 180px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listleft{
+    flex: 1;
+}
+
+.listright{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookl{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+    margin-top: 10px;
+    
+}
+
+.bookas{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+.bookm{
+    height: 97%;
+    width: auto;
+    object-fit: contain;
+}
+
+.addtocarts{
+    position: absolute;
+    bottom: 10%;
+     height: 40px;
+     width: 100px;
+     background-color: white;
+     border: 1px solid #e88e40;
+     border-radius: 20px;
+     color: #e88e40;
+     cursor: pointer;
+}

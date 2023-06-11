@@ -1,0 +1,127 @@
+.product{
+    margin: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.prodWrapper{
+    display: flex;
+}
+
+.prodleft{
+    padding: 15px;
+flex: 2;
+display: flex;
+justify-content: center;
+}
+
+.mainImg{
+    height: 70vh;
+    width: auto;
+    
+}
+
+.prodright{
+flex: 4;
+padding-top: 15px;
+display: flex;
+flex-direction: column;
+}
+
+.prodTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.prodAuthor{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.prodPrice{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+.addButton{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background-color:#fcda91;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.Descrip{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.desc{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.Rate{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+
+    margin-top: 10px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.itemsbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 90px;
+   
+}
+
+.pinfo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+text-align: center;
+}
+
+.catLines{
+    color: gray;
+}
+
+.quantity{
+    padding: 10px;
+
+}
+
+.add{
+    margin: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.quant{
+    margin: 5px;
+}

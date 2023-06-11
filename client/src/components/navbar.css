@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.Container{
+    background-color:  #FFF1D2;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.Nleft{
+    flex: 3;
+}
+
+.NCentre{
+    flex: 2;
+}
+
+.NRight{
+    flex: 3;
+}
+
+.logo{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.NCentre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.NRight{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+
+}
+
+.icons{
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cartIcon{
+    position: relative;
+}
+
+.cartspan{
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 0px ;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 180px;
+    width: 330px;
+display: flex;
+flex-direction: row;
+padding-top: 15px;
+margin-left: 40%;
+cursor: pointer;
+margin-right: 10px;
+margin-bottom: 30px;
+}
+
+
+
+.cleft{
+    flex:0.7
+}
+
+.cright{
+    flex:1
+}
+
+.bookm{
+    height: 97%;
+    width: auto;
+}
+
+
+.cright{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+ font-weight: 800;
+ margin-top: 5px;
+}
+
+.booka{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+.addtocart{
+   position: absolute;
+   
+   bottom: 35px;
+   
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #e88e40;
+    border-radius: 20px;
+    color: #e88e40;
+    cursor: pointer;
+}
+
+
+
+
+
+

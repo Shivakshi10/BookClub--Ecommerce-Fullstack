@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.products{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 249, 249);
+
+}
+
+.pleft{
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+    
+}
+
+.filterItem{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.inputItem{
+    margin-bottom: 10px;
+}
+label{
+    margin-left: 10px;
+}
+
+.pright{
+  flex: 3;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.ptext{
+   font-size: 20px;
+
+}
+
